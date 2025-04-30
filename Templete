@@ -1,20 +1,22 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> 
 using namespace std;
 
 // ===================== Commonly used types and macros =====================
-#define ll long long
+#define int long long
 #define vi vector<int>
 #define fr(i, n) for (int i = 0; i < (n); ++i)
-#define mxe(v) *max_element(v.begin(), v.end())   
-#define mne(v) *min_element(v.begin(), v.end())   
-#define srt(v) sort(v.begin(), v.end())            
+#define mxe(v) *max_element(v.begin(), v.end())
+#define mne(v) *min_element(v.begin(), v.end())
+#define srt(v) sort(v.begin(), v.end())
 #define all(v) v.begin(), v.end()
-#define sz(v) (int)(v.size())                      
-#define nl cout << "\n"
-#define YES cout << "YES\n"
-#define NO cout << "NO\n"
+#define sz(v) (int)(v.size())
+#define nl cout << "\n";
+#define YES cout << "YES\n";
+#define NO cout << "NO\n";
+
 // ===================== Constant =====================
-int MOD = 1e9 + 7;
+int mod = 1e9+7 ;
+const int N = 10000010;
 // =====================================================
 
 
@@ -22,18 +24,15 @@ int MOD = 1e9 + 7;
 // ===================== Helper function =====================
 void solve() {
     int n;
-    cin >> n;
-    vi v(n);
+    cin>>n;
+    vi arr(n);
+    fr(i,n)cin>>arr[i];
     
-    fr(i, n) cin >> v[i];
 
-    if (is_sorted(all(v))) YES;
-    else NO;
 }
 
-
 // ===================== Main function =====================
-int main() {
+signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -43,6 +42,7 @@ int main() {
     while (T--) {
         solve();
     }
+    
 
     return 0;
 }
