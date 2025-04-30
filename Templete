@@ -11,9 +11,9 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define sz(v) (int)(v.size())
 #define nl cout << "\n";
-#define YES cout << "YES\n";
-#define NO cout << "NO\n";
-
+#define pn cout<<"NO"<<endl;
+#define py cout<<"YES"<<endl;
+#define pm cout<<-1<<endl; 
 // ===================== Constant =====================
 int mod = 1e9+7 ;
 const int N = 10000010;
